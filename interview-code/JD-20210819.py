@@ -15,7 +15,6 @@ def mergeTwo(l1, l2):
         if i in dic and dic[i] > 0:
             dic[i] -= 1
             re.append(i)
-
     return re
 
 
